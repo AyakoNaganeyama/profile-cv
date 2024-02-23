@@ -8,32 +8,38 @@
       .left {
         height: 30%;
       }
+      hr {
+        height: 2px;
+        background-color: gray;
+      }
     </style>
   </head>
   <header>
     <h1 style="font-size: 60px">Ayako <br />Naganeyama</h1>
   </header>
-  <body style="padding: 0; margin: 0">
-    <section style="border-top: 2px solid black">
-      <div style="height: 200vh; background-color: pink; display: flex">
-        <div style="width: 40%; background-color: aqua; flex-direction: column">
-          <div class="left" style="background-color: pink"></div>
-          <div class="left" style="background-color: orange"></div>
-          <div style="background-color: khaki; height: 40%"></div>
+  <body style="padding: 0; margin-left: 100px; margin-right: 100px">
+    <section style="border-top: 2px solid gray">
+      <div style="height: 200vh; display: flex">
+        <div style="width: 40%; flex-direction: column">
+          <div class="left"></div>
+          <hr width="70%" />
+          <div class="left"></div>
+          <hr width="70%" />
+          <div style="height: 40%"></div>
         </div>
 
         <div
           style="
             width: 60%;
-            background-color: blue;
-            border-left: solid 2px black;
+
+            border-left: solid 2px gray;
           "
         >
-          <div style="background-color: darkgoldenrod; height: 20%"></div>
-          <div style="background-color: magenta; height: 40%"></div>
-          <div
-            style="background-color: darkgoldenrod; height: 40%; height: 40%"
-          ></div>
+          <div style="height: 20%"></div>
+          <hr width="70%" />
+          <div style="height: 40%"></div>
+          <hr width="70%" />
+          <div style="height: 40%; height: 40%"></div>
         </div>
       </div>
     </section>
